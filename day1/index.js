@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const data = fs.readFileSync("distance-data.txt", "utf8");
+const data = fs.readFileSync("data.txt", "utf8");
 const lines = data.split("\n");
 
 const left = [];
