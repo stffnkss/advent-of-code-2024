@@ -13,7 +13,7 @@ export const makeMap = (data) => {
   const map = {};
   const lines = data.split('\n');
   lines.forEach((line, y) => {
-    [...line].map((char, x) => {
+    [...line].forEach((char, x) => {
       map[`${x}/${y}`] = char;
     });
   });

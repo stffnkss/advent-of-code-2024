@@ -6,7 +6,7 @@ const lines = data.split("\n");
 const left = [];
 const right = [];
 
-lines.map((line) => {
+lines.forEach((line) => {
   const values = line.split("  ");
   left.push(parseInt(values[0]));
   right.push(parseInt(values[1]));
